@@ -7,7 +7,7 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
 
-public class ejercicio1 {
+public class PrintMembers {
 
     public static void main(String...args){
         printMembers("hola".getClass().getDeclaredMethods(), "Methods");
